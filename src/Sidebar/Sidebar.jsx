@@ -5,9 +5,9 @@ import Colors from "./Colors";
 const Sidebar = () => {
     return (
         <>
-            <section className="w-[15%] fixed h-[100%] border-r border-[#e5e5e5] z-[3] flex items-center flex-col">
-                <div className="">
-                    <h1 className=""><TiShoppingCart /></h1>
+            <section className="w-[15%] fixed max-h-screen border-r border-[#e5e5e5] z-[3] flex items-center flex-col">
+                <div className="mb-16">
+                    <h1 className="mt-5 text-2xl"><TiShoppingCart /></h1>
                 </div>
                 <Category />
                 <Price />
