@@ -1,7 +1,10 @@
+import './Colors.css'
+
 const Colors = () => {
     return (
-        <div>
-              <div>
+        <div className='ml'>
+            <h1 className='color-title'>Color</h1>
+                          <div>
           <label className="sidebar-label-container">
                 <input type="radio" name="test2" />
                 <span className="checkmark"></span>All 
@@ -28,6 +31,7 @@ const Colors = () => {
                 </label>
         
           </div>
+        
         </div>
     );
 };

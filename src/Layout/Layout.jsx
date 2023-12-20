@@ -1,11 +1,19 @@
-import { Outlet } from "react-router-dom";
-import Navbar from "../Shared/Navbar";
+import Products from "../Pages/Products/Products";
+import Sidebar from "../Sidebar/Sidebar";
+import SearchNav from "../Components/SearchNav";
+import Recommended from "../Components/Recommended";
+
 
 const Layout = () => {
     return (
         <div>
-            <Navbar/>
-            <Outlet/>
+            
+             <Sidebar/>
+             
+            <SearchNav/>
+            <Recommended/>
+
+            <Products/>
         </div>
     );
 };
